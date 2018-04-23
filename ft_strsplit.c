@@ -6,7 +6,7 @@
 /*   By: smonroe <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/20 20:13:34 by smonroe           #+#    #+#             */
-/*   Updated: 2018/04/23 02:37:53 by smonroe          ###   ########.fr       */
+/*   Updated: 2018/04/23 03:23:15 by smonroe          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@ static char	**ft_make_2d(char const *s, char **bloc, char c)
 	int	w;
 	int	l;
 
-	i = 0;
 	w = 0;
+	i = 0;
 	while (s[i])
 	{
 		l = 0;
